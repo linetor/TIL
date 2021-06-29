@@ -4,7 +4,7 @@
 ### 레퍼런스
 https://stackoverflow.com/questions/1664439/can-i-zip-more-than-two-lists-together-in-scala
 ### 시용법
-```aidl
+```
 scala> (List(1,2,3),List(4,5,6),List(7,8,9)).zipped.toList
 res0: List[(Int, Int, Int)] = List((1,4,7), (2,5,8), (3,6,9))
 ```
