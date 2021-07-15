@@ -30,7 +30,7 @@ Spark에서 데이터 로드 할때 데이터 위치에 ~~정규표현식~~  glo
 sqlContext.read
           .option("basePath","s3://bucket/location/")
           .format("orc")
-          .load(s"""s3://bucket/location/dt=202012??/""")
+          .load(s"""s3://bucket/location/da=202012??/""")
 ```
 ### 확인 결과
 저렇게 하면 20201201 ~ 20201299까지 (아니네, 영어도 되니까 ㅠㅠ) \[0-9\] 이걸써야 했음
